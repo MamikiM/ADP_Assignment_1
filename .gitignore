@@ -1,0 +1,5 @@
+#Files and folders ignore by GIT
+
+/nbproject/
+build.xml
+manifest.mf

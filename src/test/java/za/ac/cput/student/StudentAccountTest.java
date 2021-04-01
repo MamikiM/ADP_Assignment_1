@@ -58,8 +58,8 @@ public class StudentAccountTest {
     public void testGetStuId() {
         System.out.println("getStuId");
         String expResult = "100";
-        stuAccount1.setStuNumber("100");
-        String result = stuAccount1.getStuNumber();
+        stuAccount1.setStuNumber(100);
+        int result = stuAccount1.getStuNumber();
         assertEquals(expResult, result); //The following method demonstrates Object Equailty
         }
     /**
@@ -70,7 +70,7 @@ public class StudentAccountTest {
         System.out.println("setStuNumber");
         int stuNumber = 0;
         StudentAccount instance = new StudentAccount();
-        instance.setStuNumber("stuNumber");
+        instance.setStuNumber(stuNumber);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }

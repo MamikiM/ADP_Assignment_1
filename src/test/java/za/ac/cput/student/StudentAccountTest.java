@@ -4,6 +4,7 @@
 
 package za.ac.cput.student;
 
+import java.util.concurrent.TimeUnit;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -42,8 +43,14 @@ public class StudentAccountTest {
     @Test
     public void testIdentity() {
         assertSame(stuAccount1, stuAccount3);
-    }    
-   
+    }
+
+    /**@Test
+    @Timeout(value = 500, unit = TimeUnit.MILLISECONDS)
+    void test_this(){
+        
+    }*/
+    
     /**
      * Test of getStuNumber method, of class StudentAccount.
      */
@@ -113,6 +120,7 @@ public class StudentAccountTest {
      * Test of setStLastName method, of class StudentAccount.
      */
     @Test
+    //@Disable
     public void testSetStLastName() {
         System.out.println("setStLastName");
         String stLastName = "";

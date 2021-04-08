@@ -13,7 +13,7 @@ import org.junit.Test;
  *
  * @ Shiluva Mbiza,
  * Student Number : 216157404
-
+ * ADP2 Assignment
  */
 public class ADP2AssignmentTestAppTest 
 {

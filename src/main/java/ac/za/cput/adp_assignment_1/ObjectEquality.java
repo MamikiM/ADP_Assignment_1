@@ -7,8 +7,14 @@ package ac.za.cput.adp_assignment_1;
 
 /**
  *
- * @author CPUT
+ * @ Shiluva Mbiza,
+ * Student Number : 216157404
+
  */
 public class ObjectEquality {
+     public String displayName()
+    {
+        return "Shiluva";
+    }
     
 }
